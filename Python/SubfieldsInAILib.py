@@ -9,7 +9,8 @@ class SubfieldsInAI():
             "Speech Processing",
             "Natural Language Processing"
         ]
-        return lists
+        for name in lists:
+            print(name)
     
 
     
